@@ -2,6 +2,8 @@
 session_start();
 require_once('DBConnection.php');
 
+//test commit
+
 Class Actions extends DBConnection{
     function __construct(){
         parent::__construct();
